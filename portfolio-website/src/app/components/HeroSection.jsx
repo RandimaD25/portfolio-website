@@ -36,10 +36,10 @@ const HeroSection = () => {
             thoughtful design and modern technologies.
           </p>
           <div className="mt-4 flex flex-col sm:flex-row sm:gap-4 items-center sm:items-start">
-            <button className="w-full sm:w-auto font-medium px-6 py-2 rounded-full bg-transparent hover:bg-gradient-to-r from-purple-400 to-pink-600 text-white border border-purple-600">
+            <button className="w-full sm:w-auto font-medium px-6 py-2 rounded-full bg-transparent hover:bg-gradient-to-r from-purple-400 to-pink-600 text-white border border-purple-600 cursor-pointer">
               Hire Me
             </button>
-            <button className="w-full sm:w-auto font-medium px-6 py-2 rounded-full bg-transparent hover:bg-gradient-to-r from-purple-400 to-pink-600 text-white border border-purple-600 mt-3 sm:mt-0">
+            <button className="w-full sm:w-auto font-medium px-6 py-2 rounded-full bg-transparent hover:bg-gradient-to-r from-purple-400 to-pink-600 text-white border border-purple-600 mt-3 sm:mt-0 cursor-pointer">
               Download CV
             </button>
           </div>
