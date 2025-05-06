@@ -73,7 +73,10 @@ const AboutSection = () => {
         </TabButton>
       </div>
 
-      <div className="items-center py-8 px-4 xl:px-16">
+      <div
+        key={tab}
+        className="opacity-0 animate-fade-in transition-opacity duration-500 ease-in-out py-8 px-4 xl:px-16"
+      >
         {TAB_DATA.find((t) => t.id === tab).content}
       </div>
     </section>
