@@ -148,34 +148,42 @@ export const TAB_DATA = [
         <ul className="flex flex-col gap-4 text-justify">
           <li>
             <span className="font-semibold text-lg">CompSoc - UOC </span> <br />
-            Contributed to the front-end of the blog platform, enhancing user
-            experience and functionality <br />
-            Coordinated with the Organizing Committee of the APAN56 - 24 hours
-            Datathon
+            <span className="text-[#ADB7BE]">
+              Contributed to the front-end of the blog platform, enhancing user
+              experience and functionality <br />
+              Coordinated with the Organizing Committee of the APAN56 - 24 hours
+              Datathon
+            </span>
           </li>
           <li>
             <span className="font-semibold text-lg">Peocode - UCSC </span>
             <br />
-            Designed and delivered comprehensive web development content,
-            supporting team growth and skill-building
+            <span className="text-[#ADB7BE]">
+              Designed and delivered comprehensive web development content,
+              supporting team growth and skill-building
+            </span>
           </li>
           <li>
             <span className="font-semibold text-lg">
               Rekha Music Circle - UCSC
             </span>
             <br />
-            Showcased musical talent as both a violinist and a vocalist in
-            university events
+            <span className="text-[#ADB7BE]">
+              Showcased musical talent as both a violinist and a vocalist in
+              university events
+            </span>
           </li>
           <li>
             <span className="font-semibold text-lg">Rotaract Club - UCSC</span>
             <br />
-            Monitored and guided club service initiatives to enhance member
-            engagement and involvement
+            <span className="text-[#ADB7BE]">
+              Monitored and guided club service initiatives to enhance member
+              engagement and involvement
+            </span>
           </li>
         </ul>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 p-4 rounded-xl">
+        <div className="grid grid-cols-2 md:grid-cols-4 py-4 rounded-xl">
           <Image
             src={extra1}
             width={400}
