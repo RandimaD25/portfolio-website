@@ -17,20 +17,32 @@ const HeroSection = () => {
       {/* Content layer */}
       <div className="relative z-20 mt-72 sm:mt-80 px-6 sm:px-16">
         <div className="sm:px-4">
-          <h1 className="text-white mb-4 text-[1.7rem] sm:text-4xl md:text-6xl font-extrabold">
+          <h1 className="text-white mb-2 p text-[1.7rem] sm:text-4xl md:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Hello, I'm{" "}
+              Hello, I'm Randima Dias
             </span>
             <br />
+          </h1>
+
+          <span className="text-white mb-4 text-[1.4rem] sm:text-2xl md:text-5xl font-extrabold">
             <TypeAnimation
-              sequence={["Randima Dias", 1000, "Full Stack Engineer", 1000]}
+              sequence={[
+                "Full Stack Engineer",
+                1000,
+                "React.js Expert",
+                1000,
+                "Node.js Expert",
+                1000,
+                "AWS Enthusiast",
+                1000,
+              ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
             />
-          </h1>
+          </span>
 
-          <p className="text-[#ADB7BE] text-sm md:text-lg lg:text-xl w-full lg:w-1/2">
+          <p className="text-[#ADB7BE] mt-2 text-sm md:text-lg lg:text-xl w-full lg:w-1/2">
             I specialize in crafting scalable web applications with clean,
             efficient code. I thrive on solving real-world problems through
             thoughtful design and modern technologies.
