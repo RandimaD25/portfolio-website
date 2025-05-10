@@ -1,4 +1,12 @@
-import projectImg1 from "../images/project-images/project-img1.png";
+import projectImg1 from "../images/project-images/project-img1.svg";
+import projectImg2 from "../images/project-images/project-img2.svg";
+import projectImg3 from "../images/project-images/project-img3.png";
+import projectImg4 from "../images/project-images/project-img4.svg";
+import projectImg5 from "../images/project-images/project-img5.png";
+import projectImg6 from "../images/project-images/project-img6.png";
+import projectImg7 from "../images/project-images/project-img7.png";
+import projectImg8 from "../images/project-images/project-img8.png";
+import projectImg9 from "../images/project-images/project-img9.png";
 
 export const projectData = [
   {
@@ -13,20 +21,76 @@ export const projectData = [
 
   {
     id: 2,
-    title: "Aura - Community Health Net",
+    title: "Sailing Pen",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
-    image: projectImg1,
+    image: projectImg2,
     gitUrl: "/",
     previewUrl: "/",
   },
 
   {
     id: 3,
-    title: "Aura - Community Health Net",
+    title: "Todo Application",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
-    image: projectImg1,
+    image: projectImg3,
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+
+  {
+    id: 4,
+    title: "GFlock - Shopping Cart Application",
+    description:
+      " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
+    image: projectImg4,
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 5,
+    title: "Sense and Science",
+    description:
+      " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
+    image: projectImg5,
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Bankist Application",
+    description:
+      " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
+    image: projectImg6,
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+
+  {
+    id: 7,
+    title: "Guess my number",
+    description:
+      " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
+    image: projectImg7,
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 8,
+    title: "Quote Generator",
+    description:
+      " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
+    image: projectImg8,
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 9,
+    title: "Weather Application",
+    description:
+      " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
+    image: projectImg9,
     gitUrl: "/",
     previewUrl: "/",
   },
