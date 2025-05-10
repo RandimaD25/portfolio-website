@@ -7,6 +7,8 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg1,
+    gitUrl: "/",
+    previewUrl: "/",
   },
 
   {
@@ -15,6 +17,8 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg1,
+    gitUrl: "/",
+    previewUrl: "/",
   },
 
   {
@@ -23,5 +27,7 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg1,
+    gitUrl: "/",
+    previewUrl: "/",
   },
 ];
