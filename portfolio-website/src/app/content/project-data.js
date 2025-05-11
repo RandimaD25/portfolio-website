@@ -7,8 +7,46 @@ import projectImg6 from "../images/project-images/project-img6.png";
 import projectImg7 from "../images/project-images/project-img7.png";
 import projectImg8 from "../images/project-images/project-img8.png";
 import projectImg9 from "../images/project-images/project-img9.png";
+import projectImg10 from "../images/project-images/project-img10.svg";
+import projectImg11 from "../images/project-images/project-img11.png";
 
 export const projectData = [
+  {
+    id: 7,
+    title: "Guess my number",
+    description:
+      " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
+    image: projectImg7,
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  // {
+  //   id: 8,
+  //   title: "Quote Generator",
+  //   description:
+  //     " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
+  //   image: projectImg8,
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
+  {
+    id: 9,
+    title: "Weather Application",
+    description:
+      " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
+    image: projectImg9,
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Bankist Application",
+    description:
+      " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
+    image: projectImg6,
+    gitUrl: "/",
+    previewUrl: "/",
+  },
   {
     id: 1,
     title: "Aura - Community Health Net",
@@ -18,7 +56,6 @@ export const projectData = [
     gitUrl: "/",
     previewUrl: "/",
   },
-
   {
     id: 2,
     title: "Sailing Pen",
@@ -28,23 +65,12 @@ export const projectData = [
     gitUrl: "/",
     previewUrl: "/",
   },
-
   {
     id: 3,
     title: "Todo Application",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg3,
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-
-  {
-    id: 4,
-    title: "GFlock - Shopping Cart Application",
-    description:
-      " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
-    image: projectImg4,
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -58,39 +84,29 @@ export const projectData = [
     previewUrl: "/",
   },
   {
-    id: 6,
-    title: "Bankist Application",
+    id: 4,
+    title: "GFlock - Shopping Cart Application",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
-    image: projectImg6,
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-
-  {
-    id: 7,
-    title: "Guess my number",
-    description:
-      " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
-    image: projectImg7,
+    image: projectImg4,
     gitUrl: "/",
     previewUrl: "/",
   },
   {
-    id: 8,
-    title: "Quote Generator",
+    id: 10,
+    title: "Prescripto",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
-    image: projectImg8,
+    image: projectImg10,
     gitUrl: "/",
     previewUrl: "/",
   },
   {
-    id: 9,
-    title: "Weather Application",
+    id: 11,
+    title: "Clarix",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
-    image: projectImg9,
+    image: projectImg11,
     gitUrl: "/",
     previewUrl: "/",
   },
