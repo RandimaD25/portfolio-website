@@ -10,16 +10,18 @@ const ProjectSection = () => {
           My Projects
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 xl:px-16">
-          {projectData.map((project) => (
-            <ProjectCard
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              imgUrl={project.image}
-              gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
-            />
-          ))}
+          {projectData
+            .map((project) => (
+              <ProjectCard
+                key={project.id}
+                title={project.title}
+                description={project.description}
+                imgUrl={project.image}
+                gitUrl={project.gitUrl}
+                previewUrl={project.previewUrl}
+              />
+            ))
+            .reverse()}
         </div>
       </div>
     </>
