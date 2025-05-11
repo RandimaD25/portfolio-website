@@ -12,7 +12,7 @@ import projectImg11 from "../images/project-images/project-img11.png";
 
 export const projectData = [
   {
-    id: 7,
+    id: 1,
     title: "Guess my number",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
@@ -21,7 +21,7 @@ export const projectData = [
     previewUrl: "/",
   },
   // {
-  //   id: 8,
+  //   id: 2,
   //   title: "Quote Generator",
   //   description:
   //     " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
@@ -30,7 +30,7 @@ export const projectData = [
   //   previewUrl: "/",
   // },
   {
-    id: 9,
+    id: 3,
     title: "Weather Application",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
@@ -39,7 +39,7 @@ export const projectData = [
     previewUrl: "/",
   },
   {
-    id: 6,
+    id: 4,
     title: "Bankist Application",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
@@ -48,7 +48,7 @@ export const projectData = [
     previewUrl: "/",
   },
   {
-    id: 1,
+    id: 5,
     title: "Aura - Community Health Net",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
@@ -57,7 +57,7 @@ export const projectData = [
     previewUrl: "/",
   },
   {
-    id: 2,
+    id: 6,
     title: "Sailing Pen",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
@@ -66,7 +66,7 @@ export const projectData = [
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 7,
     title: "Todo Application",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
@@ -75,7 +75,7 @@ export const projectData = [
     previewUrl: "/",
   },
   {
-    id: 5,
+    id: 8,
     title: "Sense and Science",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
@@ -84,7 +84,7 @@ export const projectData = [
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 9,
     title: "GFlock - Shopping Cart Application",
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
