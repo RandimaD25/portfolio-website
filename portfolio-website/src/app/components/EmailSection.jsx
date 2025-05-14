@@ -46,8 +46,19 @@ const EmailSection = () => {
 
       <div className="pr-4 xl:pr-16 pl-2 xl:pl-6 py-8 md:py-0">
         <form className="flex flex-col gap-2">
+          <label htmlFor="name" className="text-white block font-medium">
+            Name
+          </label>
+          <input
+            type="text"
+            id="name"
+            required
+            placeholder="John Doe"
+            className="bg-[#1819E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block p-2.5 mb-3"
+          />
+
           <label htmlFor="email" className="text-white block font-medium">
-            Your Email
+            Email Address
           </label>
           <input
             type="email"
@@ -64,7 +75,7 @@ const EmailSection = () => {
             type="text"
             id="subject"
             required
-            placeholder="Hello"
+            placeholder="What’s this about?"
             className="bg-[#1819E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block p-2.5 mb-3"
           />
 
@@ -75,7 +86,7 @@ const EmailSection = () => {
             name="message"
             id="message"
             required
-            placeholder="Let's talk about..."
+            placeholder="Write your message here..."
             className="bg-[#1819E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block p-2.5 mb-3"
           />
 

@@ -17,14 +17,14 @@ const HeroSection = () => {
       {/* Content layer */}
       <div className="relative z-20 mt-72 sm:mt-80 px-6 sm:px-16">
         <div className="sm:px-4">
-          <h1 className="text-white mb-2 p text-[1.7rem] sm:text-4xl md:text-6xl font-extrabold">
+          <h1 className="text-white mb-2 p text-[1.7rem] sm:text-4xl md:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               Hello, I'm Randima Dias
             </span>
             <br />
           </h1>
 
-          <span className="text-white mb-4 text-[1.4rem] sm:text-2xl md:text-5xl font-extrabold">
+          <span className="text-white mb-4 text-[1.4rem] sm:text-2xl md:text-3xl lg:text-4xl font-extrabold">
             <TypeAnimation
               sequence={[
                 "Full Stack Engineer",
