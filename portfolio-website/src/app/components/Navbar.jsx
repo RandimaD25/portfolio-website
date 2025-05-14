@@ -25,8 +25,8 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className="top-0 left-0 right-0 fixed z-50 bg-[#121212]/80 backdrop-blur-md opacity-80">
-      <div className="flex flex-wrap items-center justify-between mx-auto px-6 sm:px-16 py-2">
+    <nav className="top-0 left-0 right-0 fixed z-50 bg-[#121212]/80 backdrop-blur-md opacity-80 px-6 sm:px-16">
+      <div className="flex flex-wrap items-center justify-between mx-auto px-4 xl:px-16 py-2">
         <Link href={"/"}>
           <Image src="/logo-image.png" width={45} height={45} alt="logo" />
         </Link>
