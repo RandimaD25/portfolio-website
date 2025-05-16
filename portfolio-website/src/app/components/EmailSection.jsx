@@ -115,7 +115,7 @@ const EmailSection = () => {
             type="email"
             id="email"
             required
-            placeholder="jcob@gmail.com"
+            placeholder="johndoe@gmail.com"
             className="bg-[#1819E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block p-2.5 mb-3"
           />
 

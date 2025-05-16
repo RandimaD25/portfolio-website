@@ -17,8 +17,8 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg7,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "/https://github.com/RandimaD25/Guess-my-number",
+    // previewUrl: "/",
   },
   // {
   //   id: 2,
@@ -35,8 +35,8 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg9,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/RandimaD25/weather-app",
+    // previewUrl: "/",
   },
   {
     id: 4,
@@ -44,8 +44,8 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg6,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/RandimaD25/bankist-app",
+    // previewUrl: "/",
   },
   {
     id: 5,
@@ -53,8 +53,9 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg1,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl:
+      "https://github.com/Aura-Community-Health-Net/Aura-Community-Healthy-Net",
+    // previewUrl: "/",
   },
   {
     id: 6,
@@ -62,8 +63,8 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg2,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/orgs/SailingPen-IMS-and-LMS/repositories",
+    // previewUrl: "/",
   },
   {
     id: 7,
@@ -71,8 +72,8 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg3,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/RandimaD25/ToDo-App",
+    // previewUrl: "/",
   },
   {
     id: 8,
@@ -80,8 +81,8 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg5,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/orgs/Sense-and-Science/repositories",
+    // previewUrl: "/",
   },
   {
     id: 9,
@@ -89,8 +90,8 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg4,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/orgs/GFlock-Online-Shopping-Cart/repositories",
+    // previewUrl: "/",
   },
   {
     id: 10,
@@ -98,8 +99,8 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg10,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/RandimaD25/prescripto-backend",
+    // previewUrl: "/",
   },
   {
     id: 11,
@@ -107,7 +108,7 @@ export const projectData = [
     description:
       " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore expedita distinctio explicabo nostrum impedit, tenetur minima facilis similique praesentium! ",
     image: projectImg11,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/RandimaD25/DeepSeek-Clone",
+    previewUrl: "https://deep-seek-clone-seven.vercel.app/",
   },
 ];
