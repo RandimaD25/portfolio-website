@@ -53,12 +53,19 @@ const HeroSection = () => {
             thoughtful design and modern technologies.
           </p>
           <div className="mt-4 flex flex-col sm:flex-row sm:gap-4 items-center sm:items-start">
-            <button className="w-full sm:w-auto font-medium px-6 py-2 rounded-full bg-transparent hover:bg-gradient-to-r from-purple-400 to-pink-600 text-white border border-purple-600 cursor-pointer">
+            <a
+              href="mailto:randimamethminid525@gmail.com?subject=Hiring%20Opportunity&body=Hi%20Randima%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect..."
+              className="w-full sm:w-auto font-medium px-6 py-2 rounded-full bg-transparent hover:bg-gradient-to-r hover:border-black from-purple-400 to-pink-600 text-white border border-purple-600 cursor-pointer text-center"
+            >
               Hire Me
-            </button>
-            <button className="w-full sm:w-auto font-medium px-6 p-2 rounded-full bg-gradient-to-r from-purple-400 to-pink-600 text-white mt-3 sm:mt-0 cursor-pointer">
+            </a>
+            <a
+              href="/Randima-Dias-CV.pdf"
+              download
+              className="w-full sm:w-auto font-medium px-6 py-2 rounded-full bg-gradient-to-r from-purple-400 to-pink-600 text-white mt-3 sm:mt-0 cursor-pointer text-center"
+            >
               Download CV
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>

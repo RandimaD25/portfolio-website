@@ -38,29 +38,34 @@ export const TAB_DATA = [
     id: "skills",
     content: (
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-8 place-items-center py-6">
-        <Image src={javascript} width={70} height={70} alt="JavaScript" />
-        <Image src={typescript} width={70} height={70} alt="TypeScript" />
-        <Image src={react} width={70} height={70} alt="React" />
-        <Image src={node} width={70} height={70} alt="Node.js" />
-        <Image src={express} width={70} height={70} alt="Express" />
-        <Image src={next} width={70} height={70} alt="Next.js" />
-        <Image src={nest} width={70} height={70} alt="NestJS" />
-
-        <Image src={html} width={70} height={70} alt="HTML" />
-        <Image src={css} width={70} height={70} alt="CSS" />
-        <Image src={tailwind} width={70} height={70} alt="Tailwind CSS" />
-        <Image src={mysql} width={70} height={70} alt="MySQL" />
-        <Image src={postgre} width={70} height={70} alt="PostgreSQL" />
-        <Image src={mongodb} width={70} height={70} alt="MongoDB" />
-        <Image src={prisma} width={70} height={70} alt="Prisma" />
-
-        <Image src={auth0} width={70} height={70} alt="Auth0" />
-        <Image src={aws} width={70} height={70} alt="AWS" />
-        <Image src={docker} width={70} height={70} alt="Docker" />
-        <Image src={jest} width={70} height={70} alt="Jest" />
-        <Image src={jira} width={70} height={70} alt="Jira" />
-        <Image src={swagger} width={70} height={70} alt="Swagger" />
-        <Image src={figma} width={70} height={70} alt="Figma" />
+        {[
+          { src: javascript, alt: "JavaScript" },
+          { src: typescript, alt: "TypeScript" },
+          { src: react, alt: "React.js" },
+          { src: node, alt: "Node.js" },
+          { src: express, alt: "Express.js" },
+          { src: next, alt: "Next.js" },
+          { src: nest, alt: "Nest.js" },
+          { src: html, alt: "HTML" },
+          { src: css, alt: "CSS" },
+          { src: tailwind, alt: "Tailwind CSS" },
+          { src: mysql, alt: "MySQL" },
+          { src: postgre, alt: "PostgreSQL" },
+          { src: mongodb, alt: "MongoDB" },
+          { src: prisma, alt: "Prisma ORM" },
+          { src: auth0, alt: "Auth0" },
+          { src: aws, alt: "AWS" },
+          { src: docker, alt: "Docker" },
+          { src: jest, alt: "Jest" },
+          { src: jira, alt: "Jira" },
+          { src: swagger, alt: "Swagger API" },
+          { src: figma, alt: "Figma" },
+        ].map((item, index) => (
+          <div key={index} className="flex flex-col items-center">
+            <Image src={item.src} width={70} height={70} alt={item.alt} />
+            <span className="text-sm text-gray-500 mt-1">{item.alt}</span>
+          </div>
+        ))}
       </div>
     ),
   },

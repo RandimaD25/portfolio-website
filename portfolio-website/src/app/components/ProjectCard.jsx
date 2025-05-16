@@ -21,12 +21,14 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
             <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] m-2 cursor-pointer hover:text-white" />
           </Link>
 
-          <Link
-            href={previewUrl}
-            className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white"
-          >
-            <EyeIcon className="h-10 w-10 text-[#ADB7BE] m-2 cursor-pointer hover:text-white" />
-          </Link>
+          {previewUrl && (
+            <Link
+              href={previewUrl}
+              className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white"
+            >
+              <EyeIcon className="h-10 w-10 text-[#ADB7BE] m-2 cursor-pointer hover:text-white" />
+            </Link>
+          )}
         </div>
       </div>
       <div className="text-white rounded-b-xl bg-[#181818] py-6 px-4">
