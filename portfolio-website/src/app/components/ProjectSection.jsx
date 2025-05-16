@@ -14,7 +14,7 @@ const ProjectSection = () => {
     animate: { y: 0, opacity: 1 },
   };
   return (
-    <section>
+    <section id="projects">
       <div className="text-white px-6 sm:px-16">
         <h2 className="text-4xl md:text-5xl font-bold text-transparent px-4 xl:px-16 bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-pink-600 mb-4 mt-10">
           My Projects
