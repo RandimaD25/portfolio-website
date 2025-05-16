@@ -49,7 +49,10 @@ const EmailSection = () => {
   };
 
   return (
-    <section className="flex-1 flex flex-col md:grid md:grid-cols-2 md:mt-10 py-12 px-6 sm:px-16 relative">
+    <section
+      id="contact"
+      className="flex-1 flex flex-col md:grid md:grid-cols-2 md:mt-10 py-12 px-6 sm:px-16 relative"
+    >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] bg-purple-900 rounded-full h-80 w-80 z-0 top-2/3 -left-4 transform -translate-x-1/2 -translate-1/2 blur-2xl opacity-50 absolute "></div>
 
       <div className="px-4 xl:px-16 z-10">

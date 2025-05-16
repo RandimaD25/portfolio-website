@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section className="text-center sm:text-left min-h-screen p-2 sm:p-4 lg:p-10 relative">
+    <section className="text-center sm:text-left min-h-screen px-2 sm:px-4 lg:px-10 relative">
       {/* Background layer */}
       <div
         className="absolute inset-0 bg-[url('/hero-image.png')] bg-cover bg-center opacity-40 z-0"
@@ -16,7 +16,12 @@ const HeroSection = () => {
 
       {/* Content layer */}
       <div className="relative z-20 mt-72 sm:mt-80 px-6 sm:px-16">
-        <div className="sm:px-4">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="sm:px-4"
+        >
           <h1 className="text-white mb-2 p text-[1.7rem] sm:text-4xl md:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               Hello, I'm Randima Dias
@@ -51,11 +56,11 @@ const HeroSection = () => {
             <button className="w-full sm:w-auto font-medium px-6 py-2 rounded-full bg-transparent hover:bg-gradient-to-r from-purple-400 to-pink-600 text-white border border-purple-600 cursor-pointer">
               Hire Me
             </button>
-            <button className="w-full sm:w-auto font-medium px-6 py-2 rounded-full bg-gradient-to-r from-purple-400 to-pink-600 text-white mt-3 sm:mt-0 cursor-pointer">
+            <button className="w-full sm:w-auto font-medium px-6 p-2 rounded-full bg-gradient-to-r from-purple-400 to-pink-600 text-white mt-3 sm:mt-0 cursor-pointer">
               Download CV
             </button>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
