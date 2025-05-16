@@ -49,7 +49,7 @@ const EmailSection = () => {
   };
 
   return (
-    <section className="grid md:grid-cols-2 my-12 md:my-4 py-12 px-6 sm:px-16 relative">
+    <section className="flex-1 flex flex-col md:grid md:grid-cols-2 md:mt-10 py-12 px-6 sm:px-16 relative">
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] bg-purple-900 rounded-full h-80 w-80 z-0 top-2/3 -left-4 transform -translate-x-1/2 -translate-1/2 blur-2xl opacity-50 absolute "></div>
 
       <div className="px-4 xl:px-16 z-10">
@@ -86,7 +86,7 @@ const EmailSection = () => {
         </div>
       </div>
 
-      <div className="pr-4 xl:pr-16 pl-2 xl:pl-6 py-8 md:py-0">
+      <div className="z-10 pr-4 xl:pr-16 pl-2 xl:pl-6 py-8 md:py-0">
         <form
           ref={formRef}
           className="flex flex-col gap-2"
@@ -134,6 +134,7 @@ const EmailSection = () => {
           <textarea
             name="message"
             id="message"
+            cols={8}
             required
             placeholder="Write your message here..."
             className="bg-[#1819E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block p-2.5 mb-3"

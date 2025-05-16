@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer
-      className="footer border border-t-[#33353f] border-l-transparent border-r-transparent text-wj
+      className="z-10 footer border border-t-[#33353f] border-l-transparent border-r-transparent text-wj
     "
     >
       <div className="container py-4 flex justify-center">
