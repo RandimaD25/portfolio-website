@@ -1,22 +1,48 @@
-import Image from "next/image";
+// import Image from "next/image";
+// import HeroSection from "./components/HeroSection";
+// import Navbar from "./components/Navbar";
+// import AboutSection from "./components/AboutSection";
+// import ProjectSection from "./components/ProjectSection";
+// import EmailSection from "./components/EmailSection";
+// import Footer from "./components/Footer";
+
+// export default function Home() {
+//   return (
+//     <main className="flex min-h-screen flex-col bg-[#121212]">
+//       <Navbar />
+//       <div className="flex-1 flex flex-col justify-between">
+//         <HeroSection />
+//         <AboutSection />
+//         <ProjectSection />
+//         <EmailSection />
+//       </div>
+//       <Footer />
+//     </main>
+//   );
+// }
 import HeroSection from "./components/HeroSection";
-import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
+import Navbar from "./components/Navbar";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212]">
-      <Navbar />
-      <div className="">
+    <main className="flex flex-col bg-[#121212]">
+      <Navbar /> {/* Fixed at top */}
+      <div className="pt-[60px] flex flex-col">
+        {" "}
+        {/* Padding to account for fixed navbar */}
         <HeroSection />
         <AboutSection />
         <ProjectSection />
-        <EmailSection />
+        {/* This block fills the screen below the navbar */}
+        <div className="min-h-[calc(100vh-60px)] flex flex-col justify-between space-y-0">
+          <EmailSection />
+          <Footer />
+        </div>
       </div>
-      <Footer />
     </main>
   );
 }
