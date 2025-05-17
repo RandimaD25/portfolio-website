@@ -21,7 +21,7 @@ const AboutSection = () => {
       </h2>
       <div className="md:grid md:grid-cols-2 gap-8 items-center pb-3 px-4 xl:px-16">
         <Image
-          className="rounded-full my-4"
+          className="rounded-full my-4 mx-auto"
           src="/about-image.jpg"
           width={400}
           height={400}
@@ -74,7 +74,7 @@ const AboutSection = () => {
           selectTab={() => handleTabChange("extra-curricular")}
           active={tab === "extra-curricular"}
         >
-          Extra Curricular Activities
+          Volunteering & Passions
         </TabButton>
       </div>
 

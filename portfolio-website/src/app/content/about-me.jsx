@@ -129,12 +129,11 @@ export const TAB_DATA = [
           </span>
 
           <span className="block md:hidden font-semibold text-md text-left">
-            <p>University of Colombo School of Computing</p>
-            <p className="text-sm">BSc. Computer Science</p>
+            <p>IJSE - Institute of Software Engineering</p>
             <p className="text-sm">
-              Second Class (Upper) Division – GPA: 3.3593
+              The Diploma of Comprehensive Master Java Developer
             </p>
-            <p className="text-sm">May 2021 - Oct 2024</p>
+            <p className="text-sm">Jan 2020 - Sep 2020</p>
           </span>
 
           <br />
@@ -317,18 +316,44 @@ export const TAB_DATA = [
           <li>
             <span className="font-semibold text-lg">CompSoc - UOC </span> <br />
             <span className="text-[#ADB7BE]">
-              Contributed to the front-end of the blog platform, enhancing user
-              experience and functionality <br />
-              Coordinated with the Organizing Committee of the APAN56 - 24 hours
-              Datathon
+              <ul className="list-disc pl-6">
+                <li>
+                  As a member of the Web Development Team, I implemented the
+                  frontend for a blog platform called{" "}
+                  <a
+                    href="#sense-science"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Sense and Science
+                  </a>
+                  , and also took the lead in designing the main website for the
+                  club. It was a great opportunity to apply my skills in a
+                  real-world setting and contribute to something meaningful
+                  within the university.
+                </li>
+                <li>
+                  I also volunteered for the APAN56 – 2024 Datathon, where I was
+                  part of the organizing committee. It gave me the chance to
+                  collaborate with peers, support event logistics, and gain
+                  valuable experience working behind the scenes of a large-scale
+                  tech event.
+                </li>
+              </ul>
             </span>
           </li>
           <li>
             <span className="font-semibold text-lg">Peocode - UCSC </span>
             <br />
             <span className="text-[#ADB7BE]">
-              Designed and delivered comprehensive web development content,
-              supporting team growth and skill-building
+              <ul className="list-disc pl-6">
+                <li>
+                  I was also an active member of Web Development team, a club
+                  focused on introducing core technology concepts to junior
+                  students. I had the opportunity to design and deliver
+                  comprehensive web development content. This experience not
+                  only helped others grow but also support team learning.
+                </li>
+              </ul>
             </span>
           </li>
           <li>
@@ -337,16 +362,33 @@ export const TAB_DATA = [
             </span>
             <br />
             <span className="text-[#ADB7BE]">
-              Showcased musical talent as both a violinist and a vocalist in
-              university events
+              <ul className="list-disc pl-6">
+                <li>
+                  As a passionate musician, I was an active member of the club,
+                  where I performed as both a violinist and vocalist. I
+                  contributed to several university events, including the
+                  Inauguration Ceremony, Excipio Freshers’ Welcome, Farewell
+                  Ceremony for the senior batch, and UCSC Pandura. These moments
+                  not only let me express my love for music but also connect
+                  with the university community on a more personal level.
+                </li>
+              </ul>
             </span>
           </li>
           <li>
             <span className="font-semibold text-lg">Rotaract Club - UCSC</span>
             <br />
             <span className="text-[#ADB7BE]">
-              Monitored and guided club service initiatives to enhance member
-              engagement and involvement
+              <ul className="list-disc pl-6">
+                <li>
+                  I was an enthusiastic member of this club, where I
+                  participated in several club service activities and
+                  volunteered at various events organized by the club. It was a
+                  great opportunity to contribute to meaningful causes, connect
+                  with diverse teams, and grow personally through community
+                  engagement.
+                </li>
+              </ul>
             </span>
           </li>
         </ul>

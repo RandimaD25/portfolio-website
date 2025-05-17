@@ -26,6 +26,7 @@ const ProjectSection = () => {
           {[...projectData].reverse().map((project, index) => {
             const isTodoApp = project.title.toLowerCase().includes("todo");
             const isGFlock = project.title.toLowerCase().includes("gflock");
+            const isSense = project.title.toLowerCase().includes("sense");
             return (
               <motion.li
                 className="scroll-mt-16"
@@ -35,7 +36,9 @@ const ProjectSection = () => {
                     ? "todo-project"
                     : undefined || isGFlock
                       ? "shopping-app"
-                      : undefined
+                      : undefined || isSense
+                        ? "sense-science"
+                        : undefined
                 }
                 variants={cardVariants}
                 initial="initial"
