@@ -23,24 +23,36 @@ const ProjectSection = () => {
           ref={ref}
           className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 xl:px-16"
         >
-          {[...projectData].reverse().map((project, index) => (
-            <motion.li
-              key={index}
-              variants={cardVariants}
-              initial="initial"
-              animate={isInView ? "animate" : "initial"}
-              transition={{ duration: 0.3, delay: index * 0.4 }}
-            >
-              <ProjectCard
-                key={project.id}
-                title={project.title}
-                description={project.description}
-                imgUrl={project.image}
-                gitUrl={project.gitUrl}
-                previewUrl={project.previewUrl}
-              />
-            </motion.li>
-          ))}
+          {[...projectData].reverse().map((project, index) => {
+            const isTodoApp = project.title.toLowerCase().includes("todo");
+            const isGFlock = project.title.toLowerCase().includes("gflock");
+            return (
+              <motion.li
+                className="scroll-mt-16"
+                key={index}
+                id={
+                  isTodoApp
+                    ? "todo-project"
+                    : undefined || isGFlock
+                      ? "shopping-app"
+                      : undefined
+                }
+                variants={cardVariants}
+                initial="initial"
+                animate={isInView ? "animate" : "initial"}
+                transition={{ duration: 0.3, delay: index * 0.4 }}
+              >
+                <ProjectCard
+                  key={project.id}
+                  title={project.title}
+                  description={project.description}
+                  imgUrl={project.image}
+                  gitUrl={project.gitUrl}
+                  previewUrl={project.previewUrl}
+                />
+              </motion.li>
+            );
+          })}
         </ul>
       </div>
     </section>

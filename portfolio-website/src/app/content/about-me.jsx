@@ -118,27 +118,109 @@ export const TAB_DATA = [
     content: (
       <ul className="flex flex-col gap-4 text-justify">
         <li>
-          <span className="font-semibold text-lg">
-            Kingteza Software Solutions (Pvt) Ltd (Jul 2024 - Jan 2025)
+          <span className="font-semibold text-lg flex justify-between">
+            <div>
+              <p>Kingteza Software Solutions (Pvt) Ltd</p>
+              <p className="text-sm">Associate Software Engineer</p>
+            </div>
+            <div className="text-right">
+              <p>Jul 2024 - Jan 2025</p>
+              <p className="text-sm">Rajagiriya, Colombo</p>
+            </div>
           </span>
           <br />
           <span className="text-[#ADB7BE]">
-            Worked as an Associate Software Engineer and Contributed to a client
-            project using a custom React-based framework, Next.js, and Nest.js.
-            Implemented frontend interfaces, backend APIs, and AWS-based
-            solutions including SQS and the Serverless Framework.
+            <ul className="list-disc pl-6">
+              <li>
+                I worked as an Associate Software Engineer on a contract basis,
+                contributing to a client project — a rewards-based platform
+                called Winlads. The project was built using JavaScript
+                technologies and cloud solutions on AWS, following a
+                microservices architecture. My primary focus was on frontend
+                development, where I worked with a custom framework built on
+                React.js and also contributed using Next.js. On the backend, I
+                developed API endpoints using Nest.js, and worked with
+                PostgreSQL for the database. In the project we used Prisma ORM
+                for schema modeling and managed database through migrations.
+              </li>
+
+              <li>
+                One of the most challenging and rewarding tasks I handled was
+                implementing a notification service. This involved enabling
+                asynchronous communication between the notification module and
+                the user service using AWS Simple Queue Service (SQS). I
+                deployed the notification module using the Serverless Framework
+                on AWS.
+              </li>
+
+              <li>
+                Throughout this experience, I deepened my understanding of
+                scalable architecture, cloud services, and asynchronous
+                communication. I also had the opportunity to actively
+                collaborate with teammates, discuss technical ideas, and
+                continuously learn through hands-on experimentation.
+              </li>
+            </ul>
           </span>
         </li>
         <li>
-          <span className="font-semibold text-lg">
-            iTelaSoft (Pvt) Ltd (Nov 2023 - May 2024)
+          <span className="font-semibold text-lg flex justify-between">
+            <div>
+              <p>iTelaSoft (Pvt) Ltd</p>
+              <p className="text-sm">Software Engineer Intern</p>
+            </div>
+            <div className="text-right">
+              <p>Nov 2023 - May 2024</p>
+              <p className="text-sm">Mirihana, Colombo</p>
+            </div>
           </span>
           <br />
           <span className="text-[#ADB7BE]">
-            Completed 6 months internship as a Software Engineer Inter and
-            worked on two individual projects using JavaScript technologies.
-            Researched clean architecture for a Node.js app and implemented
-            Docker-based containerization for frontend and backend services.
+            <ul className="list-disc pl-6">
+              <li>
+                During my 6-month internship, I completed two individual
+                projects using JavaScript-based technologies. For both projects,
+                I used React.js with Tailwind CSS on the frontend, and Node.js
+                on the backend. This internship helped me learn and apply a wide
+                range of technical concepts.
+              </li>
+
+              <li>
+                In my first project, I built a{" "}
+                <a
+                  href="#todo-project"
+                  className="text-blue-400 hover:underline"
+                >
+                  Todo application
+                </a>{" "}
+                with full CRUD operations and implemented JWT-based
+                authentication. I also learned how to write unit tests using
+                Jest and improved code quality with SonarLint.
+              </li>
+
+              <li>
+                In my second project, I researched and applied the Clean
+                Architecture principle in a Node.js project by developing a
+                shopping cart application{" "}
+                <a
+                  className="text-blue-400 hover:underline"
+                  href="#shopping-app"
+                >
+                  (GFlock - Shopping Cart Application)
+                </a>
+                . I used Auth0 as an authentication provider for this project. I
+                also explored Docker, successfully containerizing both the
+                frontend and backend into separate containers.
+              </li>
+
+              <li>
+                Throughout the internship, I gained valuable experience with
+                development best practices and received guidance from senior
+                engineers. I also participated in the company’s Toastmasters
+                club, which helped me improve my communication and public
+                speaking skills.
+              </li>
+            </ul>
           </span>
         </li>
       </ul>
