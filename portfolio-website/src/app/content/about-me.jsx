@@ -76,36 +76,104 @@ export const TAB_DATA = [
     content: (
       <ul className="flex flex-col gap-4">
         <li>
-          <span className="font-semibold text-lg">
-            University of Colombo School of Computing (May 2021 - Oct 2024)
-          </span>{" "}
+          <span className="hidden font-semibold text-lg md:flex md:justify-between mb-[-12px]">
+            <div>
+              <p>University of Colombo School of Computing</p>
+              <p className="text-sm">BSc. Computer Science</p>
+              <p className="text-sm">
+                Second Class (Upper) Division – GPA: 3.3593
+              </p>
+            </div>
+            <p>May 2021 - Oct 2024</p>
+          </span>
+
+          <span className="block md:hidden font-semibold text-md text-left">
+            <p>University of Colombo School of Computing</p>
+            <p className="text-sm">BSc. Computer Science</p>
+            <p className="text-sm">
+              Second Class (Upper) Division – GPA: 3.3593
+            </p>
+            <p className="text-sm">May 2021 - Oct 2024</p>
+          </span>
           <br />
           <span className="text-[#ADB7BE]">
-            BSc. Computer Science <br />
-            GPA : 3.3593 - 2nd Class (Upper) Division <br />
-            Major : Web Development
+            <ul className="list-disc pl-6 text-justify">
+              <li>
+                During my time at university, I was exposed to a broad range of
+                subjects including Data Structures and Algorithms, OOP, Software
+                Engineering, Databases, Computer Networks, Human Computer
+                Interaction, Professional Practice, Game Development and more.
+              </li>
+              <li>
+                One of the most memorable parts of my degree was working on two
+                group projects. These experiences were my first real exposure to
+                building software as part of a team. I learned how to
+                communicate effectively, take on leadership responsibilities,
+                handle conflicts, and deliver working software together. It
+                taught me not only about coding but also how important teamwork
+                is in real-world development.
+              </li>
+            </ul>
           </span>
         </li>
 
         <li>
-          <span className="font-semibold text-lg">
-            IJSE - Institute of Software Engineering (Jan 2020 - Sep 2020)
-          </span>{" "}
+          <span className="hidden font-semibold text-lg md:flex md:justify-between mb-[-12px]">
+            <div>
+              <p>IJSE - Institute of Software Engineering</p>
+              <p className="text-sm">
+                The Diploma of Comprehensive Master Java Developer
+              </p>
+            </div>
+            <p>Jan 2020 - Sep 2020</p>
+          </span>
+
+          <span className="block md:hidden font-semibold text-md text-left">
+            <p>University of Colombo School of Computing</p>
+            <p className="text-sm">BSc. Computer Science</p>
+            <p className="text-sm">
+              Second Class (Upper) Division – GPA: 3.3593
+            </p>
+            <p className="text-sm">May 2021 - Oct 2024</p>
+          </span>
+
           <br />
           <span className="text-[#ADB7BE]">
-            The Diploma of Comprehensive Master Java Developer
+            <ul className="list-disc pl-6 text-justify">
+              <li>
+                Through this program, I built a strong understanding of Java
+                fundamentals, mastered object-oriented programming (OOP) using
+                Java, and gained hands-on experience with Database Management
+                Systems. It was a valuable addition to my academic path and
+                helped sharpen my problem-solving and backend development skills
+                early on
+              </li>
+            </ul>
           </span>
         </li>
 
         <li>
-          <span className="font-semibold text-lg">
-            Southlands College (2005 - 2019)
-          </span>{" "}
+          <span className="hidden font-semibold text-lg md:flex md:justify-between mb-[-12px]">
+            <p>Southlands College - Galle</p>
+
+            <p>2005 - 2019</p>
+          </span>
+
+          <span className="block md:hidden font-semibold text-md text-left">
+            <p>Southlands College - Galle</p>
+
+            <p className="text-sm">2005 - 2019</p>
+          </span>
           <br />
           <span className="text-[#ADB7BE]">
-            GCE A/L - Physical Science Stream : Combined Mathematics - A,
-            Physics - B, Chemistry - C <br />
-            GCE O/L - 9A s
+            <ul className="list-disc pl-6 text-justify">
+              <li>
+                GCE A/L - Physical Science Stream : Combined Mathematics - A,
+                Physics - B, Chemistry - C
+              </li>
+              <li>GCE O/L - 9A s</li>
+            </ul>
+            <br />
           </span>
         </li>
       </ul>
@@ -116,9 +184,9 @@ export const TAB_DATA = [
     title: "Experience",
     id: "experience",
     content: (
-      <ul className="flex flex-col gap-4 text-justify">
+      <ul className="flex flex-col gap-5 text-justify">
         <li>
-          <span className="font-semibold text-lg flex justify-between">
+          <span className="hidden font-semibold text-lg md:flex md:justify-between mb-[-12px]">
             <div>
               <p>Kingteza Software Solutions (Pvt) Ltd</p>
               <p className="text-sm">Associate Software Engineer</p>
@@ -127,6 +195,14 @@ export const TAB_DATA = [
               <p>Jul 2024 - Jan 2025</p>
               <p className="text-sm">Rajagiriya, Colombo</p>
             </div>
+          </span>
+
+          <span className="block md:hidden font-semibold text-md text-left">
+            <p>
+              Kingteza Software Solutions (Pvt) Ltd - Associate Software
+              Engineer
+            </p>
+            <p className="text-sm">Jul 2024 - Jan 2025 | Rajagiriya, Colombo</p>
           </span>
           <br />
           <span className="text-[#ADB7BE]">
@@ -164,7 +240,7 @@ export const TAB_DATA = [
           </span>
         </li>
         <li>
-          <span className="font-semibold text-lg flex justify-between">
+          <span className="font-semibold text-lg hidden md:flex justify-between mb-[-12px]">
             <div>
               <p>iTelaSoft (Pvt) Ltd</p>
               <p className="text-sm">Software Engineer Intern</p>
@@ -173,6 +249,11 @@ export const TAB_DATA = [
               <p>Nov 2023 - May 2024</p>
               <p className="text-sm">Mirihana, Colombo</p>
             </div>
+          </span>
+
+          <span className="block md:hidden font-semibold text-md text-left">
+            <p>iTelaSoft (Pvt) Ltd - Software Engineer Intern</p>
+            <p className="text-sm">Nov 2023 - May 2024 | Mirihana, Colombo</p>
           </span>
           <br />
           <span className="text-[#ADB7BE]">
