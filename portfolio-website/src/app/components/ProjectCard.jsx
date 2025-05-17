@@ -8,7 +8,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
       <div
         className="h-52 sm:h-68 lg:80 rounded-t-xl relative group overflow-hidden"
         style={{
-          backgroundImage: `url(${imgUrl.src})`,
+          backgroundImage: `url(${imgUrl?.src || imgUrl})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -33,7 +33,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
       </div>
       <div className="text-white rounded-b-xl bg-[#181818] py-6 px-4">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#ADB7BE]">{description}</p>
+        <div className="text-[#ADB7BE]">{description}</div>
       </div>
     </div>
   );
