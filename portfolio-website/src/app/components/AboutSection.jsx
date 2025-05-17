@@ -21,7 +21,7 @@ const AboutSection = () => {
       </h2>
       <div className="md:grid md:grid-cols-2 gap-8 items-center pb-3 px-4 xl:px-16">
         <Image
-          className="rounded-full my-4"
+          className="rounded-full my-4 mx-auto"
           src="/about-image.jpg"
           width={400}
           height={400}
@@ -30,15 +30,20 @@ const AboutSection = () => {
         <div>
           <p className="text-base lg:text-lg text-justify">
             I'm a Computer Science graduate from the University of Colombo
-            School of Computing, currently based in Galle. I have 1 year of
-            experience in full-stack development, mainly using JavaScript
-            technologies like React.js, Next.js, Node.js, and Nest.js, along
-            with hands-on exposure to AWS and Docker. I’ve contributed to
-            real-world projects during my internship at iTelasofy and later as
-            an Associate Software Engineer at Kingteza Software Solutions. Since
-            then, I’ve continued to build my skills through freelance work and
-            personal projects, with a strong interest in cloud technologies and
-            modern web development.
+            School of Computing, where I earned a Second Class Upper Division in
+            my BSc. I have 1 year of professional experience working with
+            JavaScript technologies, both on the frontend and backend, with a
+            strong focus on building scalable and maintainable applications. I'm
+            passionate about cloud technologies and actively expanding my skills
+            in platforms like AWS. I also have a growing interest in UI/UX
+            design - I enjoy crafting intuitive, user-friendly interfaces and
+            constantly explore ways to improve the user experience through
+            design. I thrive on challenging work and love collaborating with
+            teammates to solve problems and build great products. I’m a strong
+            believer in knowledge sharing and enjoy discussing ideas and
+            learning with peers. Outside of work, I'm an active volunteer, a
+            music lover, and someone who likes to explore new ideas and build
+            experimental side projects in my free time.
           </p>
         </div>
       </div>
@@ -69,7 +74,7 @@ const AboutSection = () => {
           selectTab={() => handleTabChange("extra-curricular")}
           active={tab === "extra-curricular"}
         >
-          Extra Curricular Activities
+          Volunteering & Passions
         </TabButton>
       </div>
 

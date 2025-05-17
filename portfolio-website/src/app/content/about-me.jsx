@@ -76,36 +76,103 @@ export const TAB_DATA = [
     content: (
       <ul className="flex flex-col gap-4">
         <li>
-          <span className="font-semibold text-lg">
-            University of Colombo School of Computing (May 2021 - Oct 2024)
-          </span>{" "}
+          <span className="hidden font-semibold text-lg md:flex md:justify-between mb-[-12px]">
+            <div>
+              <p>University of Colombo School of Computing</p>
+              <p className="text-sm">BSc. Computer Science</p>
+              <p className="text-sm">
+                Second Class (Upper) Division – GPA: 3.3593
+              </p>
+            </div>
+            <p>May 2021 - Oct 2024</p>
+          </span>
+
+          <span className="block md:hidden font-semibold text-md text-left">
+            <p>University of Colombo School of Computing</p>
+            <p className="text-sm">BSc. Computer Science</p>
+            <p className="text-sm">
+              Second Class (Upper) Division – GPA: 3.3593
+            </p>
+            <p className="text-sm">May 2021 - Oct 2024</p>
+          </span>
           <br />
           <span className="text-[#ADB7BE]">
-            BSc. Computer Science <br />
-            GPA : 3.3593 - 2nd Class (Upper) Division <br />
-            Major : Web Development
+            <ul className="list-disc pl-6 text-justify">
+              <li>
+                During my time at university, I was exposed to a broad range of
+                subjects including Data Structures and Algorithms, OOP, Software
+                Engineering, Databases, Computer Networks, Human Computer
+                Interaction, Professional Practice, Game Development and more.
+              </li>
+              <li>
+                One of the most memorable parts of my degree was working on two
+                group projects. These experiences were my first real exposure to
+                building software as part of a team. I learned how to
+                communicate effectively, take on leadership responsibilities,
+                handle conflicts, and deliver working software together. It
+                taught me not only about coding but also how important teamwork
+                is in real-world development.
+              </li>
+            </ul>
           </span>
         </li>
 
         <li>
-          <span className="font-semibold text-lg">
-            IJSE - Institute of Software Engineering (Jan 2020 - Sep 2020)
-          </span>{" "}
+          <span className="hidden font-semibold text-lg md:flex md:justify-between mb-[-12px]">
+            <div>
+              <p>IJSE - Institute of Software Engineering</p>
+              <p className="text-sm">
+                The Diploma of Comprehensive Master Java Developer
+              </p>
+            </div>
+            <p>Jan 2020 - Sep 2020</p>
+          </span>
+
+          <span className="block md:hidden font-semibold text-md text-left">
+            <p>IJSE - Institute of Software Engineering</p>
+            <p className="text-sm">
+              The Diploma of Comprehensive Master Java Developer
+            </p>
+            <p className="text-sm">Jan 2020 - Sep 2020</p>
+          </span>
+
           <br />
           <span className="text-[#ADB7BE]">
-            The Diploma of Comprehensive Master Java Developer
+            <ul className="list-disc pl-6 text-justify">
+              <li>
+                Through this program, I built a strong understanding of Java
+                fundamentals, mastered object-oriented programming (OOP) using
+                Java, and gained hands-on experience with Database Management
+                Systems. It was a valuable addition to my academic path and
+                helped sharpen my problem-solving and backend development skills
+                early on
+              </li>
+            </ul>
           </span>
         </li>
 
         <li>
-          <span className="font-semibold text-lg">
-            Southlands College (2005 - 2019)
-          </span>{" "}
+          <span className="hidden font-semibold text-lg md:flex md:justify-between mb-[-12px]">
+            <p>Southlands College - Galle</p>
+
+            <p>2005 - 2019</p>
+          </span>
+
+          <span className="block md:hidden font-semibold text-md text-left">
+            <p>Southlands College - Galle</p>
+
+            <p className="text-sm">2005 - 2019</p>
+          </span>
           <br />
           <span className="text-[#ADB7BE]">
-            GCE A/L - Physical Science Stream : Combined Mathematics - A,
-            Physics - B, Chemistry - C <br />
-            GCE O/L - 9A s
+            <ul className="list-disc pl-6 text-justify">
+              <li>
+                GCE A/L - Physical Science Stream : Combined Mathematics - A,
+                Physics - B, Chemistry - C
+              </li>
+              <li>GCE O/L - 9A s</li>
+            </ul>
+            <br />
           </span>
         </li>
       </ul>
@@ -116,29 +183,124 @@ export const TAB_DATA = [
     title: "Experience",
     id: "experience",
     content: (
-      <ul className="flex flex-col gap-4 text-justify">
+      <ul className="flex flex-col gap-5 text-justify">
         <li>
-          <span className="font-semibold text-lg">
-            Kingteza Software Solutions (Pvt) Ltd (Jul 2024 - Jan 2025)
+          <span className="hidden font-semibold text-lg md:flex md:justify-between mb-[-12px]">
+            <div>
+              <p>Kingteza Software Solutions (Pvt) Ltd</p>
+              <p className="text-sm">Associate Software Engineer</p>
+            </div>
+            <div className="text-right">
+              <p>Jul 2024 - Jan 2025</p>
+              <p className="text-sm">Rajagiriya, Colombo</p>
+            </div>
+          </span>
+
+          <span className="block md:hidden font-semibold text-md text-left">
+            <p>
+              Kingteza Software Solutions (Pvt) Ltd - Associate Software
+              Engineer
+            </p>
+            <p className="text-sm">Jul 2024 - Jan 2025 | Rajagiriya, Colombo</p>
           </span>
           <br />
           <span className="text-[#ADB7BE]">
-            Worked as an Associate Software Engineer and Contributed to a client
-            project using a custom React-based framework, Next.js, and Nest.js.
-            Implemented frontend interfaces, backend APIs, and AWS-based
-            solutions including SQS and the Serverless Framework.
+            <ul className="list-disc pl-6">
+              <li>
+                I worked as an Associate Software Engineer on a contract basis,
+                contributing to a client project — a rewards-based platform
+                called Winlads. The project was built using JavaScript
+                technologies and cloud solutions on AWS, following a
+                microservices architecture. My primary focus was on frontend
+                development, where I worked with a custom framework built on
+                React.js and also contributed using Next.js. On the backend, I
+                developed API endpoints using Nest.js, and worked with
+                PostgreSQL for the database. In the project we used Prisma ORM
+                for schema modeling and managed database through migrations.
+              </li>
+
+              <li>
+                One of the most challenging and rewarding tasks I handled was
+                implementing a notification service. This involved enabling
+                asynchronous communication between the notification module and
+                the user service using AWS Simple Queue Service (SQS). I
+                deployed the notification module using the Serverless Framework
+                on AWS.
+              </li>
+
+              <li>
+                Throughout this experience, I deepened my understanding of
+                scalable architecture, cloud services, and asynchronous
+                communication. I also had the opportunity to actively
+                collaborate with teammates, discuss technical ideas, and
+                continuously learn through hands-on experimentation.
+              </li>
+            </ul>
           </span>
         </li>
         <li>
-          <span className="font-semibold text-lg">
-            iTelaSoft (Pvt) Ltd (Nov 2023 - May 2024)
+          <span className="font-semibold text-lg hidden md:flex justify-between mb-[-12px]">
+            <div>
+              <p>iTelaSoft (Pvt) Ltd</p>
+              <p className="text-sm">Software Engineer Intern</p>
+            </div>
+            <div className="text-right">
+              <p>Nov 2023 - May 2024</p>
+              <p className="text-sm">Mirihana, Colombo</p>
+            </div>
+          </span>
+
+          <span className="block md:hidden font-semibold text-md text-left">
+            <p>iTelaSoft (Pvt) Ltd - Software Engineer Intern</p>
+            <p className="text-sm">Nov 2023 - May 2024 | Mirihana, Colombo</p>
           </span>
           <br />
           <span className="text-[#ADB7BE]">
-            Completed 6 months internship as a Software Engineer Inter and
-            worked on two individual projects using JavaScript technologies.
-            Researched clean architecture for a Node.js app and implemented
-            Docker-based containerization for frontend and backend services.
+            <ul className="list-disc pl-6">
+              <li>
+                During my 6-month internship, I completed two individual
+                projects using JavaScript-based technologies. For both projects,
+                I used React.js with Tailwind CSS on the frontend, and Node.js
+                on the backend. This internship helped me learn and apply a wide
+                range of technical concepts.
+              </li>
+
+              <li>
+                In my first project, I built a{" "}
+                <a
+                  href="#todo-project"
+                  className="text-blue-400 hover:underline"
+                >
+                  Todo application
+                </a>{" "}
+                with full CRUD operations and implemented JWT-based
+                authentication. I also learned how to write unit tests using
+                Jest and improved code quality with SonarLint.
+              </li>
+
+              <li>
+                In my second project, I researched and applied the Clean
+                Architecture principle in a Node.js project by developing a
+                shopping cart application{" "}
+                <a
+                  className="text-blue-400 hover:underline"
+                  href="#shopping-app"
+                >
+                  (GFlock - Shopping Cart Application)
+                </a>
+                . I used Auth0 as an authentication provider for this project. I
+                also explored Docker, successfully containerizing both the
+                frontend and backend into separate containers.
+              </li>
+
+              <li>
+                Throughout the internship, I gained valuable experience with
+                development best practices and received guidance from senior
+                engineers. I also participated in the company’s Toastmasters
+                club, which helped me improve my communication and public
+                speaking skills.
+              </li>
+            </ul>
           </span>
         </li>
       </ul>
@@ -154,18 +316,44 @@ export const TAB_DATA = [
           <li>
             <span className="font-semibold text-lg">CompSoc - UOC </span> <br />
             <span className="text-[#ADB7BE]">
-              Contributed to the front-end of the blog platform, enhancing user
-              experience and functionality <br />
-              Coordinated with the Organizing Committee of the APAN56 - 24 hours
-              Datathon
+              <ul className="list-disc pl-6">
+                <li>
+                  As a member of the Web Development Team, I implemented the
+                  frontend for a blog platform called{" "}
+                  <a
+                    href="#sense-science"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Sense and Science
+                  </a>
+                  , and also took the lead in designing the main website for the
+                  club. It was a great opportunity to apply my skills in a
+                  real-world setting and contribute to something meaningful
+                  within the university.
+                </li>
+                <li>
+                  I also volunteered for the APAN56 – 2024 Datathon, where I was
+                  part of the organizing committee. It gave me the chance to
+                  collaborate with peers, support event logistics, and gain
+                  valuable experience working behind the scenes of a large-scale
+                  tech event.
+                </li>
+              </ul>
             </span>
           </li>
           <li>
             <span className="font-semibold text-lg">Peocode - UCSC </span>
             <br />
             <span className="text-[#ADB7BE]">
-              Designed and delivered comprehensive web development content,
-              supporting team growth and skill-building
+              <ul className="list-disc pl-6">
+                <li>
+                  I was also an active member of Web Development team, a club
+                  focused on introducing core technology concepts to junior
+                  students. I had the opportunity to design and deliver
+                  comprehensive web development content. This experience not
+                  only helped others grow but also support team learning.
+                </li>
+              </ul>
             </span>
           </li>
           <li>
@@ -174,16 +362,33 @@ export const TAB_DATA = [
             </span>
             <br />
             <span className="text-[#ADB7BE]">
-              Showcased musical talent as both a violinist and a vocalist in
-              university events
+              <ul className="list-disc pl-6">
+                <li>
+                  As a passionate musician, I was an active member of the club,
+                  where I performed as both a violinist and vocalist. I
+                  contributed to several university events, including the
+                  Inauguration Ceremony, Excipio Freshers’ Welcome, Farewell
+                  Ceremony for the senior batch, and UCSC Pandura. These moments
+                  not only let me express my love for music but also connect
+                  with the university community on a more personal level.
+                </li>
+              </ul>
             </span>
           </li>
           <li>
             <span className="font-semibold text-lg">Rotaract Club - UCSC</span>
             <br />
             <span className="text-[#ADB7BE]">
-              Monitored and guided club service initiatives to enhance member
-              engagement and involvement
+              <ul className="list-disc pl-6">
+                <li>
+                  I was an enthusiastic member of this club, where I
+                  participated in several club service activities and
+                  volunteered at various events organized by the club. It was a
+                  great opportunity to contribute to meaningful causes, connect
+                  with diverse teams, and grow personally through community
+                  engagement.
+                </li>
+              </ul>
             </span>
           </li>
         </ul>
