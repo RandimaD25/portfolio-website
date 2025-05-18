@@ -31,18 +31,18 @@ export default function RootLayout({ children }) {
 </Script> */}
 
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=G-WQ4L9LMLRD`}
-          strategy=""
+          src="https://www.googletagmanager.com/gtag/js?id=G-WQ4L9LMLRD"
+          strategy="afterInteractive"
         />
 
-        <Script id="google-analytics" strategy="" />
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-WQ4L9LMLRD');
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-WQ4L9LMLRD');
           `}
+        </Script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
