@@ -32,6 +32,29 @@ import extra9 from "../images/about-me-images/extra9.jpg";
 import extra10 from "../images/about-me-images/extra10.jpg";
 import Image from "next/image";
 
+const scrollToProject = (id) => {
+  const el = document.getElementById(id);
+  if (el) {
+    const yOffset = -80; // adjust for navbar height
+    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
+
+    // Highlight the card
+    el.classList.add(
+      "ring-4",
+      "ring-purple-500",
+      "transition-all",
+      "duration-500",
+      "rounded-xl"
+    );
+
+    setTimeout(() => {
+      el.classList.remove("ring-4", "ring-purple-500");
+    }, 2000);
+  }
+};
+
 export const TAB_DATA = [
   {
     title: "Skills",
@@ -270,6 +293,10 @@ export const TAB_DATA = [
                 <a
                   href="#todo-project"
                   className="text-blue-400 hover:underline"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToProject("todo-project");
+                  }}
                 >
                   Todo application
                 </a>{" "}
@@ -285,6 +312,10 @@ export const TAB_DATA = [
                 <a
                   className="text-blue-400 hover:underline"
                   href="#shopping-app"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToProject("shopping-app");
+                  }}
                 >
                   (GFlock - Shopping Cart Application)
                 </a>
@@ -323,6 +354,10 @@ export const TAB_DATA = [
                   <a
                     href="#sense-science"
                     className="text-blue-400 hover:underline"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToProject("sense-science");
+                    }}
                   >
                     Sense and Science
                   </a>

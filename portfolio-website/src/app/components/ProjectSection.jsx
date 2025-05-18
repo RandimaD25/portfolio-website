@@ -17,7 +17,7 @@ const AnimatedCard = ({ children, index, id }) => {
     <motion.li
       ref={ref}
       id={id}
-      className="scroll-mt-16"
+      className="scroll-mt-28"
       initial={{ opacity: 0, y: 50 }}
       animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{
