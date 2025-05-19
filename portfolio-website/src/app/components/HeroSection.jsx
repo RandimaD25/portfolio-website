@@ -49,7 +49,7 @@ const HeroSection = () => {
             />
           </span>
 
-          <p className="text-[#ADB7BE] mt-2 text-sm md:text-md lg:text-[1rem] w-full lg:w-1/2">
+          <p className="text-[#ADB7BE] mt-2 text-sm sm:text-md md:text-lg lg:text-xl w-full xl:w-1/2">
             I specialize in crafting scalable web applications with clean,
             efficient code. I thrive on solving real-world problems through
             thoughtful design and modern technologies.
