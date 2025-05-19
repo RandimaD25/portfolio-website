@@ -120,7 +120,7 @@ export const TAB_DATA = [
           </span>
           <br />
           <span className="text-[#ADB7BE]">
-            <ul className="list-disc pl-6 text-justify">
+            <ul className="list-disc pl-6 text-sm md:text-md lg:text-[1rem] text-justify">
               <li>
                 During my time at university, I was exposed to a broad range of
                 subjects including Data Structures and Algorithms, OOP, Software
@@ -161,7 +161,7 @@ export const TAB_DATA = [
 
           <br />
           <span className="text-[#ADB7BE]">
-            <ul className="list-disc pl-6 text-justify">
+            <ul className="list-disc pl-6 text-justify text-sm md:text-md lg:text-[1rem]">
               <li>
                 Through this program, I built a strong understanding of Java
                 fundamentals, mastered object-oriented programming (OOP) using
@@ -188,7 +188,7 @@ export const TAB_DATA = [
           </span>
           <br />
           <span className="text-[#ADB7BE]">
-            <ul className="list-disc pl-6 text-justify">
+            <ul className="list-disc pl-6 text-justify text-sm md:text-md lg:text-[1rem]">
               <li>
                 GCE A/L - Physical Science Stream : Combined Mathematics - A,
                 Physics - B, Chemistry - C
@@ -228,35 +228,31 @@ export const TAB_DATA = [
           </span>
           <br />
           <span className="text-[#ADB7BE]">
-            <ul className="list-disc pl-6">
+            <ul className="list-disc pl-6 text-sm md:text-md lg:text-[1rem]">
               <li>
-                I worked as an Associate Software Engineer on a contract basis,
-                contributing to a client project — a rewards-based platform
-                called Winlads. The project was built using JavaScript
-                technologies and cloud solutions on AWS, following a
-                microservices architecture. My primary focus was on frontend
-                development, where I worked with a custom framework built on
-                React.js and also contributed using Next.js. On the backend, I
-                developed API endpoints using Nest.js, and worked with
-                PostgreSQL for the database. In the project we used Prisma ORM
-                for schema modeling and managed database through migrations.
+                I worked as an Associate Software Engineer on a contract basis
+                for a client project called Winlads, a rewards-based platform.
+                The project followed a microservices architecture using
+                JavaScript technologies and AWS cloud solutions. My main role
+                was frontend development using a custom React.js framework and
+                Next.js, but I also contributed on the backend by building API
+                endpoints with Nest.js and managing the database using
+                PostgreSQL with Prisma ORM and migrations.
               </li>
 
               <li>
-                One of the most challenging and rewarding tasks I handled was
-                implementing a notification service. This involved enabling
-                asynchronous communication between the notification module and
-                the user service using AWS Simple Queue Service (SQS). I
-                deployed the notification module using the Serverless Framework
-                on AWS.
+                One of the most interesting challenges I took on was developing
+                a notification service. I implemented asynchronous communication
+                between the notification module and the user service using AWS
+                SQS and deployed the module through the Serverless Framework.
               </li>
 
               <li>
-                Throughout this experience, I deepened my understanding of
-                scalable architecture, cloud services, and asynchronous
-                communication. I also had the opportunity to actively
-                collaborate with teammates, discuss technical ideas, and
-                continuously learn through hands-on experimentation.
+                This experience helped me strengthen my knowledge of scalable
+                systems, cloud-based architectures, and async communication. It
+                was also a great opportunity to work closely with teammates,
+                exchange ideas, and learn continuously through hands-on
+                development.
               </li>
             </ul>
           </span>
@@ -279,17 +275,17 @@ export const TAB_DATA = [
           </span>
           <br />
           <span className="text-[#ADB7BE]">
-            <ul className="list-disc pl-6">
+            <ul className="list-disc pl-6 text-sm md:text-md lg:text-[1rem]">
               <li>
                 During my 6-month internship, I completed two individual
-                projects using JavaScript-based technologies. For both projects,
-                I used React.js with Tailwind CSS on the frontend, and Node.js
-                on the backend. This internship helped me learn and apply a wide
-                range of technical concepts.
+                projects using JavaScript-based technologies. Both projects were
+                built with React.js and Tailwind CSS on the frontend, and
+                Node.js on the backend, allowing me to apply a wide range of
+                technical concepts in real-world scenarios.
               </li>
 
               <li>
-                In my first project, I built a{" "}
+                For the first project, I developed a{" "}
                 <a
                   href="#todo-project"
                   className="text-blue-400 hover:underline"
@@ -300,15 +296,13 @@ export const TAB_DATA = [
                 >
                   Todo application
                 </a>{" "}
-                with full CRUD operations and implemented JWT-based
-                authentication. I also learned how to write unit tests using
-                Jest and improved code quality with SonarLint.
+                with full CRUD functionality and JWT-based authentication. I
+                also wrote unit tests using Jest and improved code quality with
+                SonarLint.
               </li>
 
               <li>
-                In my second project, I researched and applied the Clean
-                Architecture principle in a Node.js project by developing a
-                shopping cart application{" "}
+                In the second project,{" "}
                 <a
                   className="text-blue-400 hover:underline"
                   href="#shopping-app"
@@ -317,19 +311,19 @@ export const TAB_DATA = [
                     scrollToProject("shopping-app");
                   }}
                 >
-                  (GFlock - Shopping Cart Application)
+                  GFlock - Shopping Cart Application
                 </a>
-                . I used Auth0 as an authentication provider for this project. I
-                also explored Docker, successfully containerizing both the
-                frontend and backend into separate containers.
+                , I explored Clean Architecture principles in a Node.js setup. I
+                used Auth0 for authentication and containerized both the
+                frontend and backend using Docker.
               </li>
 
               <li>
-                Throughout the internship, I gained valuable experience with
-                development best practices and received guidance from senior
-                engineers. I also participated in the company’s Toastmasters
-                club, which helped me improve my communication and public
-                speaking skills.
+                This internship not only sharpened my technical skills but also
+                exposed me to development best practices. I received valuable
+                mentorship from senior engineers and even improved my
+                communication skills through participation in the company’s
+                Toastmasters club meetings.
               </li>
             </ul>
           </span>
@@ -347,7 +341,7 @@ export const TAB_DATA = [
           <li>
             <span className="font-semibold text-lg">CompSoc - UOC </span> <br />
             <span className="text-[#ADB7BE]">
-              <ul className="list-disc pl-6">
+              <ul className="list-disc pl-6 text-sm md:text-md lg:text-[1rem]">
                 <li>
                   As a member of the Web Development Team, I implemented the
                   frontend for a blog platform called{" "}
@@ -380,7 +374,7 @@ export const TAB_DATA = [
             <span className="font-semibold text-lg">Peocode - UCSC </span>
             <br />
             <span className="text-[#ADB7BE]">
-              <ul className="list-disc pl-6">
+              <ul className="list-disc pl-6 text-sm md:text-md lg:text-[1rem]">
                 <li>
                   I was also an active member of Web Development team, a club
                   focused on introducing core technology concepts to junior
@@ -397,7 +391,7 @@ export const TAB_DATA = [
             </span>
             <br />
             <span className="text-[#ADB7BE]">
-              <ul className="list-disc pl-6">
+              <ul className="list-disc pl-6 text-sm md:text-md lg:text-[1rem]">
                 <li>
                   As a passionate musician, I was an active member of the club,
                   where I performed as both a violinist and vocalist. I
@@ -414,7 +408,7 @@ export const TAB_DATA = [
             <span className="font-semibold text-lg">Rotaract Club - UCSC</span>
             <br />
             <span className="text-[#ADB7BE]">
-              <ul className="list-disc pl-6">
+              <ul className="list-disc pl-6 text-sm md:text-md lg:text-[1rem]">
                 <li>
                   I was an enthusiastic member of this club, where I
                   participated in several club service activities and

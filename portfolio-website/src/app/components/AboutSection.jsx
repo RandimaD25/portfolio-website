@@ -28,7 +28,7 @@ const AboutSection = () => {
           alt="about-image"
         />
         <div>
-          <p className="text-base lg:text-lg text-justify">
+          <p className="text-sm md:text-md lg:text-[1rem] text-justify">
             I'm a Computer Science graduate from the University of Colombo
             School of Computing, where I earned a Second Class Upper Division in
             my BSc. I have 1 year of professional experience working with

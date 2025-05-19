@@ -59,10 +59,11 @@ const EmailSection = () => {
         <h5 className="text-4xl md:text-5xl font-bold text-transparent mb-4 bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-pink-600">
           Let's Connect
         </h5>
-        <p className="text-[#ADB7BE] mb-4 text-justify">
-          I am currently looking for new opportunities. My inbox is always open.
-          Whether you have questions or just want to say hi, I'll try my best to
-          get back to you.
+        <p className="text-[#ADB7BE] mb-4 text-justify text-sm md:text-md lg:text-[1rem]">
+          I'm on the lookout for exciting opportunities as an Associate Software
+          Engineer or Software Engineer. Feel free to reach out—whether it’s
+          about a role, a project, or just a quick chat, I’m always happy to
+          connect!
         </p>
 
         <div className="socials flex flex-row gap-4">
@@ -92,7 +93,7 @@ const EmailSection = () => {
       <div className="z-10 pr-4 xl:pr-16 pl-2 xl:pl-6 py-8 md:py-0">
         <form
           ref={formRef}
-          className="flex flex-col gap-2"
+          className="flex flex-col gap-2 text-sm md:text-md lg:text-[1rem]"
           onSubmit={handleSubmit}
         >
           <label htmlFor="name" className="text-white block font-medium">
@@ -150,24 +151,6 @@ const EmailSection = () => {
           >
             {loading ? (
               <>
-                {/* <svg
-                  className="animate-spin h-5 w-5 text-white"
-                  viewBox="0 0 24 24"
-                >
-                  <circle
-                    className="opacity-25"
-                    cx="12"
-                    cy="12"
-                    r="10"
-                    stroke="currentColor"
-                    strokeWidth="4"
-                  />
-                  <path
-                    className="opacity-75"
-                    fill="currentColor"
-                    d="M4 12a8 8 0 018-8v4l3-3-3-3v4a8 8 0 018 8h-4l3 3 3-3h-4a8 8 0 01-8 8v-4l-3 3 3 3v-4a8 8 0 01-8-8z"
-                  />
-                </svg> */}
                 <Image
                   className="animate-spin"
                   src={Loading}
