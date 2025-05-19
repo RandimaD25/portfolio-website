@@ -22,7 +22,7 @@ export const projectData = [
           number, receiving immediate feedback on whether their guess is
           correct.
         </p>
-        <p className="text-sm mt-4">
+        <p className="text-[0.78rem] lg:text-sm mt-4">
           <span className="font-semibold">Tech Stack - </span>
           HTML5, CSS3, JavaScript
         </p>
@@ -52,7 +52,7 @@ export const projectData = [
           by integrating with a weather API.
         </p>
         <div>
-          <p className="text-sm mt-4">
+          <p className="text-[0.78rem] lg:text-sm mt-4">
             <span className="font-semibold">Tech Stack - </span>
             HTML5, CSS3, JavaScript, Weather API (Fess API)
           </p>
@@ -76,7 +76,7 @@ export const projectData = [
         </p>
 
         <div>
-          <p className="text-sm mt-4">
+          <p className="text-[0.78rem] lg:text-sm mt-4">
             <span className="font-semibold">Tech Stack - </span>
             HTML5, CSS3, JavaScript
           </p>
@@ -99,7 +99,7 @@ export const projectData = [
           sector.
         </p>
         <div>
-          <p className="text-sm mt-4">
+          <p className="text-[0.78rem] lg:text-sm mt-4">
             <span className="font-semibold">Tech Stack - </span>
             HTML5, CSS3, JavaScript, PHP, MySQL, Figma
           </p>
@@ -124,7 +124,7 @@ export const projectData = [
         </p>
 
         <div>
-          <p className="text-sm mt-4">
+          <p className="text-[0.78rem] lg:text-sm mt-4">
             <span className="font-semibold">Tech Stack - </span>
             Vue.js, Nest.js, TypeScript, TailwindCSS, PostgreSQL, Prisma ORM,
             Axios, Figma, AWS S3
@@ -149,7 +149,7 @@ export const projectData = [
           that each user’s tasks are protected and accessible only to them.
         </p>
         <div>
-          <p className="text-sm mt-4">
+          <p className="text-[0.78rem] lg:text-sm mt-4">
             <span className="font-semibold">Tech Stack - </span>
             React.js, TypeScript, Bootstrap, Node.js, Express.js, MySQL, Prisma
             ORM, JWT Authentication, Axios, JEST, Sonar Lint
@@ -175,7 +175,7 @@ export const projectData = [
         </p>
 
         <div>
-          <p className="text-sm mt-4">
+          <p className="text-[0.78rem] lg:text-sm mt-4">
             <span className="font-semibold">Tech Stack - </span>
             Next.js, Tailwind CSS, TypeScript, Figma, Axios
           </p>
@@ -200,7 +200,7 @@ export const projectData = [
         </p>
 
         <div>
-          <p className="text-sm mt-4">
+          <p className="text-[0.78rem] lg:text-sm mt-4">
             <span className="font-semibold">Tech Stack - </span>
             React.js, TypeScript, Node.js, Express.js, Tailwind CSS, Auth0,
             MySQL, TypeORM, Jest, Swagger API, MySQL, TypeORM, AWS S3, AWS
@@ -225,7 +225,7 @@ export const projectData = [
           features and reliable performance.
         </p>
         <div>
-          <p className="text-sm mt-4">
+          <p className="text-[0.78rem] lg:text-sm mt-4">
             <span className="font-semibold">Tech Stack - </span>
             React.js, TailwindCSS, Node.js, Express.js, MongoDB, Cloudinary,
             Multer, Stripe, JWT, AWS EC2, Axios
@@ -250,7 +250,7 @@ export const projectData = [
           deployed on Vercel, offering fast and reliable access.
         </p>
         <div>
-          <p className="text-sm mt-4">
+          <p className="text-[0.78rem] lg:text-sm mt-4">
             <span className="font-semibold ">Tech Stack - </span>
             Next.js, TailwindCSS, MongoDB, DeepSeek-R1 via OpenRouter API,
             Clerk, Vercel, Axios, React Markdown, PrismJS

@@ -37,7 +37,9 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
       {/* Content */}
       <div className="flex flex-col justify-between flex-grow p-4 text-white">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <div className="text-[#ADB7BE] flex-grow">{description}</div>
+        <div className="text-[#ADB7BE] flex-grow text-sm md:text-md lg:text-[1rem]">
+          {description}
+        </div>
       </div>
     </div>
   );
