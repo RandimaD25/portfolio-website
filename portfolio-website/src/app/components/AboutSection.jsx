@@ -48,7 +48,7 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="flex flex-row items-center md:gap-10 text:md sm:text-xl md:text-2xl py-2 px-4 xl:px-16">
+      <div className="flex flex-row items-center md:gap-10 text:md sm:text-lg md:text-xl py-2 px-4 xl:px-16">
         <TabButton
           selectTab={() => handleTabChange("skills")}
           active={tab === "skills"}

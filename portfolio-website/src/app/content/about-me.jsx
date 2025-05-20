@@ -163,12 +163,12 @@ export const TAB_DATA = [
           <span className="text-[#ADB7BE]">
             <ul className="list-disc pl-6 text-justify text-sm md:text-md lg:text-[1rem]">
               <li>
-                Through this program, I built a strong understanding of Java
+                Through this program, I developed a solid foundation in Java
                 fundamentals, mastered object-oriented programming (OOP) using
                 Java, and gained hands-on experience with Database Management
-                Systems. It was a valuable addition to my academic path and
-                helped sharpen my problem-solving and backend development skills
-                early on
+                Systems. It was a valuable addition to my academic journey and
+                significantly enhanced my problem-solving abilities and backend
+                development skills early on.
               </li>
             </ul>
           </span>
@@ -233,8 +233,8 @@ export const TAB_DATA = [
                 I worked as an Associate Software Engineer on a contract basis
                 for a client project called Winlads, a rewards-based platform.
                 The project followed a microservices architecture using
-                JavaScript technologies and AWS cloud solutions. My main role
-                was frontend development using a custom React.js framework and
+                JavaScript technologies and AWS cloud solutions. I mainly did
+                the frontend related tasks using a custom React.js framework and
                 Next.js, but I also contributed on the backend by building API
                 endpoints with Nest.js and managing the database using
                 PostgreSQL with Prisma ORM and migrations.
