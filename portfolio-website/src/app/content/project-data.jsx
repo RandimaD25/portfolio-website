@@ -60,7 +60,7 @@ export const projectData = [
       </div>
     ),
     image: projectImg9,
-    gitUrl: "https://github.com/RandimaD25/weather-app",
+    gitUrl: "https://github.com/RandimaD25/weather-app/tree/development",
     // previewUrl: "/",
   },
   {
