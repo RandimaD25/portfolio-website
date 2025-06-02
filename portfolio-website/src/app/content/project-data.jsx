@@ -9,6 +9,7 @@ import projectImg8 from "../images/project-images/project-img8.png";
 import projectImg9 from "../images/project-images/project-img9.png";
 import projectImg10 from "../images/project-images/project-img10.svg";
 import projectImg11 from "../images/project-images/project-img11.png";
+import projectImg12 from "../images/project-images/project-img12.png";
 
 export const projectData = [
   {
@@ -85,6 +86,29 @@ export const projectData = [
     ),
     image: projectImg6,
     gitUrl: "https://github.com/RandimaD25/bankist-app",
+    // previewUrl: "/",
+  },
+  {
+    id: 4,
+    title: "Cargo",
+    description: (
+      <div>
+        <p className="text-justify">
+          Built responsive and interactive UI elements for the logistics app's
+          home page, emphasizing component reusability and a seamless user
+          experience.
+        </p>
+
+        <div>
+          <p className="text-[0.78rem] lg:text-sm mt-4">
+            <span className="font-semibold">Tech Stack - </span>
+            React.js, CSS3, React Icons
+          </p>
+        </div>
+      </div>
+    ),
+    image: projectImg12,
+    gitUrl: "https://github.com/RandimaD25/Cargo-Home-Page",
     // previewUrl: "/",
   },
   {
