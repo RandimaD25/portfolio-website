@@ -212,15 +212,14 @@ export const projectData = [
   },
   {
     id: 9,
-    title: "GFlock",
+    title: "Shopping Cart Application",
     description: (
       <div>
         <p className="text-justify">
-          GFlock is a shopping cart application that supports full CRUD
-          operations for products, orders and categories. The backend was
-          developed using Node.js, applying Clean Architecture principles to
-          ensure a scalable, and maintainable codebase, following thorough
-          research and best practices.
+          Shopping cart application supports full CRUD operations for products,
+          orders and categories. The backend was developed using Node.js,
+          applying Clean Architecture principles to ensure a scalable, and
+          maintainable codebase, following thorough research and best practices.
         </p>
 
         <div>
